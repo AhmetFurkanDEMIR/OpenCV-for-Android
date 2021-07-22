@@ -1,0 +1,11 @@
+org.opencv
+attr camera_id
+attr show_fps
+drawable ic_launcher_background
+id any
+id back
+id front
+mipmap ic_launcher
+mipmap ic_launcher_foreground
+mipmap ic_launcher_round
+styleable CameraBridgeViewBase camera_id show_fps

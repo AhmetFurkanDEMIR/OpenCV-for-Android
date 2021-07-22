@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="samples.opencv.FaceDetection">
+<application
+
+    android:allowBackup="true"
+    android:hardwareAccelerated="false"
+    android:icon="@mipmap/ica"
+    android:label="@string/app_name"
+    android:largeHeap="true"
+    android:roundIcon="@mipmap/ica_round"
+    android:supportsRtl="true"
+    android:theme="@style/AppTheme">
+    <activity android:name="samples.opencv.FaceDetection.MainActivity"
+        android:screenOrientation="unspecified">  <!--Screen orientation-->
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+    </activity>
+</application>
+<!--Allow to use a camera-->
+<uses-permission android:name="android.permission.CAMERA"/>
+<uses-feature android:name="android.hardware.camera" android:required="false"/>
+<uses-feature android:name="android.hardware.camera.autofocus" android:required="false"/>
+<uses-feature android:name="android.hardware.camera.front" android:required="false"/>
+<uses-feature android:name="android.hardware.camera.front.autofocus" android:required="false"/>
+</manifest>
